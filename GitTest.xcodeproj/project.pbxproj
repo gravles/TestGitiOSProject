@@ -21,6 +21,7 @@
 		1CBE730C18E0A2BE006AD2A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBE72EE18E0A2BE006AD2A5 /* UIKit.framework */; };
 		1CBE731418E0A2BE006AD2A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE731218E0A2BE006AD2A5 /* InfoPlist.strings */; };
 		1CBE731618E0A2BE006AD2A5 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE731518E0A2BE006AD2A5 /* GitTestTests.m */; };
+		1CBE732118E0A4D5006AD2A5 /* EMtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE732018E0A4D5006AD2A5 /* EMtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1CBE731118E0A2BE006AD2A5 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		1CBE731318E0A2BE006AD2A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CBE731518E0A2BE006AD2A5 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		1CBE731F18E0A4D5006AD2A5 /* EMtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMtest.h; sourceTree = "<group>"; };
+		1CBE732018E0A4D5006AD2A5 /* EMtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		1CBE72DE18E0A2BE006AD2A5 = {
 			isa = PBXGroup;
 			children = (
+				1CBE731F18E0A4D5006AD2A5 /* EMtest.h */,
+				1CBE732018E0A4D5006AD2A5 /* EMtest.m */,
 				1CBE72F018E0A2BE006AD2A5 /* GitTest */,
 				1CBE730F18E0A2BE006AD2A5 /* GitTestTests */,
 				1CBE72E918E0A2BE006AD2A5 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CBE730118E0A2BE006AD2A5 /* EMViewController.m in Sources */,
+				1CBE732118E0A4D5006AD2A5 /* EMtest.m in Sources */,
 				1CBE72FB18E0A2BE006AD2A5 /* EMAppDelegate.m in Sources */,
 				1CBE72F718E0A2BE006AD2A5 /* main.m in Sources */,
 			);
